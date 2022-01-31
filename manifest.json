@@ -1,14 +1,17 @@
 {
     "manifest_version": 2,
   
-    "name": "iStaggerText Plugin",
+    "name": "iStaggerText",
     "description": "ThIs eXtEnSiOn aLlOwS ThE UsEr tO StAgGeR TeXt lIkE ThIs.",
     "version": "1.0",
   
     "browser_action": {
-     "default_icon": "images/icon.png",
+     "default_icon": "images/icon16.png",
      "default_popup": "popup.html"
     },
+    "icons": { "16": "images/icon16.png",
+        "48": "images/icon48.png",
+       "128": "images/icon128.png" },
     "permissions": [
      "activeTab"
      ]

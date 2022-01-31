@@ -1,0 +1,23 @@
+body {
+    height: 250px;
+    width: 375px;
+}
+
+.bodyContents {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alignVertically{
+    text-align: center;
+}
+
+
+.height25{
+    heigh: 25px;
+}
+
+.height30{
+    height: 30px;
+}
+

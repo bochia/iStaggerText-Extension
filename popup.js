@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
   convertButton.addEventListener('click', function() {
   	ConvertInputToStaggeredText();
   }, false);
+
+  var copyButton = document.getElementById('copyButton');
+  copyButton.addEventListener('click', function() {
+  	CopyText();
+  }, false);
+
 }, false);
 
 
@@ -42,4 +48,16 @@ function StaggerText(inputText, startWithLowerCase){
 	}
   
   return outputText;
+}
+
+function CopyText() {
+  /* Get the text field */
+  var outputTextBox = document.getElementById("outputText");
+
+  /* Select the text field */
+  outputTextBox.select();
+  outputTextBox.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  document.execCommand('copy')
 }
