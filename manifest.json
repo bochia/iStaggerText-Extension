@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "iStaggerText",
-    "version": "0.1",
+    "version": "1.0",
     "description": "ThIs eXtEnSiOn aLlOwS ThE UsEr tO StAgGeR TeXt lIkE ThIs.",
     "permissions": [],
     "author": "Brandon Ochia",
